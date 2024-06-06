@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-function Homepage() {
-
-};
+function Homepage() {}
 
 export default Homepage;
