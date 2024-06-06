@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import logo from "./images/logo.png";
-// import "./style.css";
+import logo from "./images/logo.png";
+import "./style.css";
 
 function Navbar() {
   return (
     <div className="nav">
-      {/* <div className="navbar-logo">
+      <div className="navbar-logo">
         <img src={logo} alt="logo" />
-      </div> */}
+      </div>
 
       <li className="nav-list">
         <Link to="/">Homepage</Link>
