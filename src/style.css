@@ -38,10 +38,10 @@ ul.ullist{
 }
 .modal-content {
     display: flex;
-    align-items: center;
+    align-items:center;
 }
   
 .modal-content img {
-    max-width: 200px;
+    max-width: 300px;
     margin-right: 20px;
 }
