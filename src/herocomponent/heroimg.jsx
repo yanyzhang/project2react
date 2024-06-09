@@ -1,5 +1,6 @@
 import React from "react";
 import "./heroimg.css";
+import HeroButton from "./herobutton";
 
 const Hero = () => {
   const heroImage =
@@ -15,6 +16,7 @@ const Hero = () => {
       <div className="hero-content">
         <h1>Powering the Future with Solar Energy</h1>
         <p>Join us in our mission to create a sustainable world.</p>
+        <HeroButton />
       </div>
     </div>
   );
