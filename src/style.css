@@ -6,10 +6,12 @@
     background-color: brown;
 }
 
-.nav-list{ 
+.nav-list { 
     list-style-type: none;
     margin:0 1em;
+    
 }
+
 
 .contact-header{
     text-align: center;
@@ -23,6 +25,8 @@ ul.ullist{
     display: inline-block;
     text-align: left;
 }
+
+
 
 .card-layout {
     display: grid;
@@ -45,3 +49,5 @@ ul.ullist{
     max-width: 300px;
     margin-right: 20px;
 }
+
+
