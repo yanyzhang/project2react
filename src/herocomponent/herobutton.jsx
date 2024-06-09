@@ -18,7 +18,7 @@ const HeroButton = () => {
         </Link>
 
         <a
-          title="Consulation"
+          title="Consultation"
           href="/consultation"
           className="hero-btn hero-button hero-btn--primary hero-button--primary"
         >
