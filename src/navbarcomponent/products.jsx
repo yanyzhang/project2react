@@ -104,7 +104,6 @@ function Products() {
         <div key={product.id} className="card">
           <h4>{product.name}</h4>
           <img src={product.photo} alt={product.alt} width={200} />
-<<<<<<< HEAD
           <button
             onClick={() => openModal(product)}
             style={{
@@ -115,9 +114,6 @@ function Products() {
           >
             Learn More
           </button>
-=======
-          <button onClick={() => openModal(product)}>Learn More</button>
->>>>>>> b628d26e60161e1a753f81fb0eec212ec432853e
         </div>
       ))}
 
@@ -150,16 +146,12 @@ function Products() {
         <br />
         <button
           onClick={closeModal}
-<<<<<<< HEAD
           style={{
             display: "block",
             margin: "0 auto",
             padding: "2px",
             minWidth: "100px",
           }}
-=======
-          style={{ display: "block", margin: "0 auto" }}
->>>>>>> b628d26e60161e1a753f81fb0eec212ec432853e
         >
           Close
         </button>
