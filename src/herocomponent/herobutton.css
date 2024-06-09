@@ -1,6 +1,6 @@
 .hero-buttons {
     position: absolute;
-    bottom: -130px; /* Adjust the margin as needed to provide spacing below the text */
+    bottom: -130px; 
     z-index: 1;
     left: 50%;
     transform: translate(-50%);

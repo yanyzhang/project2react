@@ -102,9 +102,8 @@ function Products() {
     <div className="card-layout">
       {products.map((product) => (
         <div key={product.id} className="card">
-          <h3>{product.name}</h3>
+          <h4>{product.name}</h4>
           <img src={product.photo} alt={product.alt} width={200} />
-
           <button onClick={() => openModal(product)}>Learn More</button>
         </div>
       ))}
@@ -135,7 +134,13 @@ function Products() {
             <button onClick={handleSubmit}>Submit/Review Order</button>
           </div>
         </div>
-        <button onClick={closeModal}>Close</button>
+        <br />
+        <button
+          onClick={closeModal}
+          style={{ display: "block", margin: "0 auto" }}
+        >
+          Close
+        </button>
       </Modal>
     </div>
   );

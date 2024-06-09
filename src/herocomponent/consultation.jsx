@@ -4,7 +4,11 @@ import "../herocomponent/consultation.css";
 function Consultation() {
   return (
     <div className="consultation">
-      <img src="https://d2rxt25e475whq.cloudfront.net/wp-content/uploads/2022/12/25231501/AdobeStock_519445978-scaled.jpeg"></img>
+      <img
+        src="https://d2rxt25e475whq.cloudfront.net/wp-content/uploads/2022/12/25231501/AdobeStock_519445978-scaled.jpeg"
+        alt=""
+        className="roof"
+      ></img>
       <div className="consultation-content">
         <h2>Virtual Consultation</h2>
         <p>
@@ -19,6 +23,10 @@ function Consultation() {
             placeholder="Enter Address"
             value=""
           />
+          <br />
+          <button type="button" class="consultationbtn">
+            Submit
+          </button>
         </div>
       </div>
     </div>
