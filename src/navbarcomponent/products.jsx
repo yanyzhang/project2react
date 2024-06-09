@@ -104,7 +104,16 @@ function Products() {
         <div key={product.id} className="card">
           <h4>{product.name}</h4>
           <img src={product.photo} alt={product.alt} width={200} />
-          <button onClick={() => openModal(product)}>Learn More</button>
+          <button
+            onClick={() => openModal(product)}
+            style={{
+              display: "block",
+              margin: "0 auto",
+              padding: "4px",
+            }}
+          >
+            Learn More
+          </button>
         </div>
       ))}
 
@@ -137,7 +146,12 @@ function Products() {
         <br />
         <button
           onClick={closeModal}
-          style={{ display: "block", margin: "0 auto" }}
+          style={{
+            display: "block",
+            margin: "0 auto",
+            padding: "2px",
+            minWidth: "100px",
+          }}
         >
           Close
         </button>
